@@ -71,7 +71,18 @@ var webpackConfig = merge(baseWebpackConfig, {
 		  filename: 'loading.html',
 		  template: 'loading.html',
 		  inject: false
-		}), 
+		}),  
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, '../electron_zip/electron.js'),
+        to: config.build.assetsRoot+'/electron.js', 
+      },
+      {
+        from: path.resolve(__dirname, '../electron_zip/package.json'),
+        to: config.build.assetsRoot+'/package.json', 
+      }
+    ]),
+    
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
