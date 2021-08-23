@@ -1,0 +1,12 @@
+{
+		"code":"00",
+		"obj":  {
+			"id": 1,
+			"username": "tiktok",
+			"password": "12345",
+			"avatar": "https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/user.png",
+			"name": "张某某"
+		}
+		
+}
+

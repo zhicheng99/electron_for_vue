@@ -1,0 +1,57 @@
+ {
+    "flag": true,
+    "code": "00",
+    "msg": "执行成功!",
+    "obj": [
+        {
+            "id": 1013851,
+            "pid": 0,
+            "children": null,
+            "name": "车辆登记管理",
+            "url": "/",
+            "remark": "滴滴泊车系统车辆登记管理",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null
+        },
+        {
+            "id": 1013844,
+            "pid": 0,
+            "children": [
+                {
+                    "id": 1013847,
+                    "pid": 1013844,
+                    "children": null,
+                    "name": "区域管理",
+                    "url": "/qygl",
+                    "remark": "滴滴泊车系统区域管理",
+                    "isMenu": 1,
+                    "sortVal": 0,
+                    "icon": "",
+                    "openType": 1,
+                    "idStr": null,
+                    "customMemo": "",
+                    "commonName": null,
+                    "langNameList": null
+                }
+            ],
+            "name": "基础数据",
+            "url": "/",
+            "remark": "滴滴泊车系统",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null
+        }
+    ],
+    "success": true
+}

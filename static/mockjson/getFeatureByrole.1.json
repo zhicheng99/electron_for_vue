@@ -1,0 +1,238 @@
+{
+    "flag": true,
+    "code": "00",
+    "msg": "执行成功!",
+    "obj": [
+        {
+            "id": 1013851,
+            "pid": 0,
+            "name": "车辆登记管理",
+            "url": "/",
+            "remark": "滴滴泊车系统车辆登记管理",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "员工车牌管理",
+				    "url": "/employeePlate", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "临时车牌维护",
+				    "url": "/occasionalPlate", 
+				    "icon": "" 
+				}
+			]
+        },
+        {
+            "id": 1013844,
+            "pid": 0,
+            "name": "基础数据22",
+            "url": "/",
+            "remark": "滴滴泊车系统",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+                {
+                    "id": 1013847,
+                    "pid": 1013844,
+                    "children": null,
+                    "name": "区域管理99",
+                    "url": "/area",
+                    "remark": "滴滴泊车系统区域管理",
+                    "isMenu": 1,
+                    "sortVal": 0,
+                    "icon": "",
+                    "openType": 1,
+                    "idStr": null,
+                    "customMemo": "",
+                    "commonName": null,
+                    "langNameList": null
+                },
+				{ 
+				    "name": "停车场管理",
+				    "url": "/park", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "职场信息管理",
+				    "url": "/workPlace", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "消息模板管理",
+				    "url": "/massageTemplate", 
+				    "icon": "" 
+				}
+				
+				
+				
+            ]
+        },
+		{ 	
+			
+			"id": 1013844,
+			"pid": 0,
+			"name": "车牌摇号管理",
+			"url": "/",
+			"remark": "滴滴泊车系统",
+			"isMenu": 1,
+			"sortVal": 0,
+			"icon": "",
+			"openType": 1,
+			"idStr": null,
+			"customMemo": "",
+			"commonName": null,
+			"langNameList": null,
+			"children":[
+				{ 
+				    "name": "摇号登记申请",
+				    "url": "/pumpNumApp", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "摇号登记列表",
+				    "url": "/pumpNumList", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "车辆摇号",
+				    "url": "/pumpNum", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "摇号结果",
+				    "url": "/PumpNumHistoryResult", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "摇号参数配置",
+				    "url": "/pumpNumSetting", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "车位退款申请",
+				    "url": "/parkingRefundApp", 
+				    "icon": "" 
+				}
+			]
+		},
+		{ 
+		    "name": "停车管理",
+		    "url": "/", 
+		    "icon": "" ,
+			"children":[
+				{ 
+				    "name": "固定车位闲置",
+				    "url": "/fixedParkingIdle", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "停车记录管理",
+				    "url": "/ParkingRecord", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "报警信息",
+				    "url": "/WarningMessage", 
+				    "icon": "" 
+				}
+				
+			]
+		},
+		{ 
+		    "name": "对账管理",
+		    "url": "/", 
+		    "icon": "",
+			"children":[
+				{ 
+				    "name": "对账管理",
+				    "url": "/reconciliation", 
+				    "icon": "" 
+				}
+			]
+		},
+		{ 
+		    "name": "统计分析",
+		    "url": "/", 
+		    "icon": "",
+			"children":[
+				{ 
+				    "name": "支付统计",
+				    "url": "/paymentStatistics", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "时长统计",
+				    "url": "/durationStatistics", 
+				    "icon": "" 
+				}
+				
+			]
+		},
+		{ 
+		    "name": "系统管理",
+		    "url": "/", 
+		    "icon": "",
+			"children":[
+				{ 
+				    "name": "菜单管理",
+				    "url": "/menuManage", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "角色管理",
+				    "url": "/roleManage", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "数据字典",
+				    "url": "/dicManage", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "计划任务",
+				    "url": "/taskManage", 
+				    "icon": "" 
+				}
+			]
+		},
+		{ 
+		    "name": "日志管理",
+		    "url": "/", 
+		    "icon": "",
+			"children":[
+				{ 
+				    "name": "操作日志",
+				    "url": "/operationLog", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "巡检日志",
+				    "url": "/patrolLog", 
+				    "icon": "" 
+				},
+				{ 
+				    "name": "抬杆日志",
+				    "url": "/liftLog", 
+				    "icon": "" 
+				}
+				
+				 
+			]
+		}
+    ],
+    "success": true
+}

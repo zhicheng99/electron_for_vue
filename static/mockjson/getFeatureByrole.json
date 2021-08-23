@@ -1,0 +1,197 @@
+{
+    "flag": true,
+    "code": "00",
+    "msg": "执行成功!",
+    "obj": [
+        {
+            "id": 1013851,
+            "pid": 0,
+            "name": "代码生成器",
+            "url": "/",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "icon-align-justify",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "数据模型",
+				    "url": "/dataModel", 
+				    "icon": "",
+					"sortVal": 0
+
+				}
+			]
+        },
+        {
+            "id": 1013851,
+            "pid": 0,
+            "name": "定时任务",
+            "url": "/",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "icon-align-justify",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "任务列表",
+				    "url": "/taskList", 
+				    "icon": "",
+					"sortVal": 0
+
+				},
+				{ 
+				    "name": "任务执行日志",
+				    "url": "/taskLog", 
+				    "icon": "",
+					"sortVal": 0
+
+				}
+			]
+        },
+        {
+            "id": 1013851,
+            "pid": 0,
+            "name": "系统管理",
+            "url": "/",
+            "isMenu": 1,
+            "sortVal": 0,
+            "icon": "icon-align-justify",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "系统字典管理",
+				    "url": "/sysDic", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "数据库管理",
+				    "url": "/sysTable", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "网站基本信息",
+				    "url": "/sysInfo", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "系统日志管理",
+				    "url": "/sysLog", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "系统资源管理",
+				    "url": "/sysRes", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "系统权限管理",
+				    "url": "/sysPer", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "系统角色管理",
+				    "url": "/sysRole", 
+				    "icon": "",
+					"sortVal": 0
+				},
+				{ 
+				    "name": "问题反馈群配置",
+				    "url": "/collectBotChat", 
+				    "icon": "",
+					 "sortVal": 0
+			
+				}
+			]
+        },
+        {
+            "id": 1013844,
+            "pid": 0,
+            "name": "村落管理",
+            "url": "/",
+            "isMenu": 1,
+            "sortVal": 1,
+            "icon": "icon-align-justify",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "村落列表",
+				    "url": "/manageInfo", 
+				    "icon": "",
+					 "sortVal": 0
+			
+				}				
+			]
+        },
+        {
+            "id": 1013844,
+            "pid": 0,
+            "name": "区域管理",
+            "url": "/",
+            "isMenu": 1,
+            "sortVal": 1,
+            "icon": "icon-align-justify",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "区域列表",
+				    "url": "/areaList", 
+				    "icon": "",
+					 "sortVal": 0
+			
+				}				
+			]
+        },
+        {
+            "id": 1013844,
+            "pid": 0,
+            "name": "活动管理",
+            "url": "/",
+            "isMenu": 1,
+            "sortVal": 1,
+            "icon": "icon-align-justify",
+            "openType": 1,
+            "idStr": null,
+            "customMemo": "",
+            "commonName": null,
+            "langNameList": null,
+			"children": [
+				{ 
+				    "name": "活动列表",
+				    "url": "/activityList", 
+				    "icon": "",
+					 "sortVal": 0
+			
+				}				
+			]
+        }
+		 
+	
+    ],
+    "success": true
+}

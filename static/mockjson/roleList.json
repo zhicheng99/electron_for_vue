@@ -1,0 +1,24 @@
+{
+    "flag": true,
+    "code": "00",
+    "msg": "执行成功!",
+    "obj": [
+        {
+            "createdAt": 1548405130000,
+            "nameZh": "管理员",
+            "name": "运营管理员",
+            "description": "",
+            "id": 1,
+            "status": 1
+        },
+        {
+            "createdAt": 1548405150000,
+            "nameZh": "普通管理员",
+            "name": "仓库管理员",
+            "description": "",
+            "id": 2,
+            "status": 1
+        }
+    ],
+    "success": true
+}

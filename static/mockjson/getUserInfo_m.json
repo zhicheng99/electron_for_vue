@@ -1,0 +1,32 @@
+{
+    "flag": true,
+    "code": "00",
+    "msg": "查询成功!",
+    "obj": {
+        "id": 741943,
+        "username": "mafengyu_v",
+        "usernameZh": "马凤宇",
+        "roleDtoList": [
+            {
+                "id": 14210518,
+                "name": "管理员",
+                "nameZh": "管理员",
+                "description": "",
+                "labelName": null,
+                "appId": 2371,
+                "status": 1,
+                "lang": null,
+                "labelId": 0,
+                "type": 0,
+                "langNameList": null,
+                "businessId": 0,
+                "businessName": null,
+                "userCountBound": 0,
+                "featureCountBound": 0,
+                "permissionCountBound": 0,
+                "commonName": null
+            }
+        ]
+    },
+    "success": true
+}

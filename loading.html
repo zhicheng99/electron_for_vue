@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>办公用品管理系统</title> 
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="0">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script>
+			var u = navigator.userAgent;
+			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+			var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			
+			if(isAndroid || isIOS){
+				// location.href="http://172.20.201.40:9002/index.html";
+				// location.href="http://parking.intra.xiaojukeji.com:8001/index.html";
+				location.href="mobile/index.html";
+
+
+				
+			}else{
+				// location.href="http://172.20.201.40:9001/#/user";
+				// location.href="http://parking.intra.xiaojukeji.com/index.html";
+				location.href="index.html";
+
+
+			
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

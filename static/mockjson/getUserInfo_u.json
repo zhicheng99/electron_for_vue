@@ -1,0 +1,14 @@
+{
+    "flag": true,
+    "code": "00",
+    "msg": "查询成功!",
+    "obj": {
+        "id": 741943,
+        "username": "mafengyu_v",
+        "usernameZh": "马凤宇",
+        "roleDtoList": [
+            
+        ]
+    },
+    "success": true
+}
