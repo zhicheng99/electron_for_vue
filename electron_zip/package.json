@@ -1,0 +1,41 @@
+{
+  "name": "demo",
+  "version": "0.0.2",
+  "author": "李志成",
+  "main":"./electron.js",
+
+  "build": {  
+    "productName":"test", 
+    "appId": "test", 
+    "copyright":"test", 
+    "compression": "store",  
+    "directories": {
+        "output": "build" 
+    }, 
+    "asar": false,  
+    "extraResources":  {  
+        "from": "./app-update.yml",
+        "to": "./b.txt"
+    },
+    "win": {  
+        "icon": "./src/assets/favicon.ico", 
+        "extraResources":  {  
+            "from": "./app-update.yml",
+            "to": "./b.txt"
+        }
+    },
+    "nsis": {
+        "oneClick": false, 
+        "guid": "test",  
+        "perMachine": true, 
+        "allowElevation": true,  
+        "allowToChangeInstallationDirectory": true,  
+        "installerIcon": "./src/assets/favicon.ico",  
+        "uninstallerIcon": "./src/assets/favicon.ico",  
+        "installerHeaderIcon": "./src/assets/favicon.ico",  
+        "createDesktopShortcut": true,  
+        "createStartMenuShortcut": true,  
+        "shortcutName": "test" 
+    }
+  }
+}
