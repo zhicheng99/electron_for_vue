@@ -9,7 +9,9 @@
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "electron_dev": "npm run build && electron build/electron.js",
-    "electron_build": "electron-packager ./dist/ --platform=win32 --arch=x64 --icon=./src/assets/favicon.ico --overwrite --electron-zip-dir=./electron_zip"
+    "electron_build": "electron-packager ./dist/ --platform=win32 --arch=x64 --icon=./src/assets/favicon.ico --overwrite --electron-zip-dir=./electron_zip",
+    "electron_mac": "electron-packager ./dist/ --platform=darwin --arch=x64 --icon=./src/assets/favicon.ico --overwrite --electron-zip-dir=./electron_zip",
+    "dmg":"rm -f ./dmg/test.dmg && appdmg ./dmg/dmg.json ./dmg/test.dmg"
   },
   "dependencies": {
     "axios": "^0.15.3",
@@ -31,6 +33,7 @@
     "vuex": "^2.0.0-rc.6"
   },
   "devDependencies": {
+    "appdmg": "^0.6.2",
     "autoprefixer": "^6.7.2",
     "axios-mock-adapter": "^1.7.1",
     "babel-core": "^6.22.1",
